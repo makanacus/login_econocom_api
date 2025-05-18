@@ -72,4 +72,9 @@ public class AuthController {
         String token = jwtUtil.generateToken(simulatedEmail);
         return ResponseEntity.ok(new LoginResponse(token));
     }
+
+    @GetMapping("/sso/ping")
+    public ResponseEntity<String> pingSsoServer() {
+        return ResponseEntity.ok("SSO server is up");
+    }
 }
