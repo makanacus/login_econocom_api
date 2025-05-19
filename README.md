@@ -39,3 +39,15 @@ Asegúrate de tener lo siguiente instalado en tu sistema:
 ```bash
 mvn spring-boot:run
 
+🗄️ Base de datos de prueba local
+
+Este proyecto incluye una base de datos de prueba en modo local, ubicada en la carpeta src/main/resources. Esta base de datos contiene un usuario preconfigurado para pruebas:
+
+Usuario: usuario
+
+Email: usuario@ejemplo.com
+
+Contraseña: 123456
+
+Puedes utilizar estas credenciales para probar las funcionalidades de autenticación y login.
+
