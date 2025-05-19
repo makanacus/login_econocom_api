@@ -1,6 +1,6 @@
 # 🛡️ Login Backend - Spring Boot API
 
-Este proyecto es una API backend desarrollada en **Java** con **Spring Boot**, diseñada para gestionar autenticación y/o funcionalidades relacionadas con login. Está preparada para ejecutarse en **Visual Studio Code** o desde la terminal usando **Maven** o **Gradle**.
+Este proyecto es una API backend desarrollada en **Java 8** con **Spring Boot**, diseñada para gestionar autenticación y funcionalidades de login. Está preparada para ejecutarse en **Visual Studio Code** o desde la terminal usando **Maven**.
 
 ---
 
@@ -8,12 +8,14 @@ Este proyecto es una API backend desarrollada en **Java** con **Spring Boot**, d
 
 Asegúrate de tener lo siguiente instalado en tu sistema:
 
-- [Java JDK 17+](https://adoptium.net/)
-- [Maven](https://maven.apache.org/) o [Gradle](https://gradle.org/) (según tu configuración)
+- [Java JDK 8](https://adoptium.net/)
+- [Maven](https://maven.apache.org/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - Extensiones recomendadas en VS Code:
   - Java Extension Pack
   - Spring Boot Extension Pack
+
+> ⚠️ Este proyecto requiere **Java 8**. Si tienes un JDK más reciente, asegúrate de configurar JDK 8 como el JDK del proyecto en VS Code (`Java: Configure Java Runtime`).
 
 ---
 
@@ -32,7 +34,8 @@ Asegúrate de tener lo siguiente instalado en tu sistema:
 
 ---
 
-### ✅ Opción 2: Desde terminal con Maven, si tienes Maven global
+### ✅ Opción 2: Desde la terminal (Maven) si lo tienes de manera global
 
 ```bash
 mvn spring-boot:run
+
